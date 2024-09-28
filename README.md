@@ -40,6 +40,7 @@ In the transformation phase, this is how it works:
 5. **Improving the Query:** after reshaping the query, it’s sent to ChatGPT. With the improved question, ChatGPT can understand it better and give a more accurate and relevant response to the user.
 
 ![model architecture](https://github.com/zayedrmdn/AI-RAG/blob/main/assets/System-Architecture.jpeg?raw=true)
+
 _Figure 1: Model Architecture_
 
 This solution differs from the traditional way of simply pasting code into popular LLM models like Gemini, ChatGPT, Bard, etc and offers several benefits over them. One, the model is able to generate a response with up-to-date knowledge taken from the database. Two, the response will also be of better quality since RAG vectorizes the prompt which in turns . Lastly, this reduces redundant work done by programmers, as the model is able to generate a response based on past solutions.
